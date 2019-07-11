@@ -1,0 +1,7 @@
+.app-index {
+	text-align: center;
+	.text {
+		color: #0f0;
+		font-size: 32rpx;
+	}
+}

@@ -1,10 +1,11 @@
 {
-  "pages": [],
-  "window": {
-    "backgroundColor": "#ffffff",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "mini",
-    "navigationBarTextStyle": "black"
-  }
+	"pages": ["pages/index/index"],
+	"window": {
+		"backgroundColor": "#ffffff",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "mini",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json"
 }

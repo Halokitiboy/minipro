@@ -2,13 +2,13 @@
 	"miniprogramRoot": "miniprogram/",
 	"setting": {
 		"urlCheck": false,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "newFeature": true,
-    "nodeModules": true,
-    "autoAudits": false,
-    "uglifyFileName": false
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": false
 	},
 	"appid": "touristappid",
 	"projectname": "text",
@@ -34,5 +34,8 @@
 		"beforePreview": "echo 2",
 		"beforeUpload": "echo 3"
 	},
-	"compileType": "miniprogram"
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
 }

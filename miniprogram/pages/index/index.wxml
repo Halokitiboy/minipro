@@ -1,0 +1,8 @@
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <view class="app-index" hover-class="none" hover-stop-propagation="false">
+        <view class="text" hover-class="none" hover-stop-propagation="false">
+            第一次使用腾讯的小程序脚手架
+        </view>
+    </view>
+</view>
+  
