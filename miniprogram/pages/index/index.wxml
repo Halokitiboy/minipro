@@ -16,6 +16,7 @@
                 <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="通知"></i-tab-bar-item>
                 <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的"></i-tab-bar-item>
             </i-tab-bar>
+            <view>{{fullName}}</view>
         </view>
     </view>
 </view>

@@ -1,38 +1,45 @@
-//Page Object
+// Page Object
 Page({
     data: {
-        
+        motto: null,
+        userInfo: null,
+        hasUserInfo: null,
+        canIUse: null,
+        b: { arr: [ ] },
+        firstName: null,
+        lastName: null,
+        pureProp: null,
+        //privateProp 你也可以定义 store.data 没有的属性，该属性的变更只能通过 this.setData 进行更新视图
+        privateProp: '私有数据',
+        xxxx: '私有数据2',
     },
-    //options(Object)
-    onLoad: function(options){
+    // options(Object)
+    onLoad() {
+        console.log('ok');
+    },
+    onReady() {  
+    },
+    onShow() {
+    },
+    onHide() {
 
     },
-    onReady: function(){
-        
+    onUnload() {
     },
-    onShow: function(){
-        
-    },
-    onHide: function(){
+    onPullDownRefresh() {
 
     },
-    onUnload: function(){
+    onReachBottom() {
 
     },
-    onPullDownRefresh: function(){
+    onShareAppMessage() {
 
     },
-    onReachBottom: function(){
+    onPageScroll() {
 
     },
-    onShareAppMessage: function(){
+    // item(index,pagePath,text)
+    onTabItemTap() {
 
     },
-    onPageScroll: function(){
-
-    },
-    //item(index,pagePath,text)
-    onTabItemTap:function(item){
-
-    }
 });
