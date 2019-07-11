@@ -5,7 +5,7 @@ Page({
     },
     //options(Object)
     onLoad: function(options){
-        
+
     },
     onReady: function(){
         

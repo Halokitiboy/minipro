@@ -1,0 +1,17 @@
+/* @import '../miniprogram/assets/_function.css'; */
+/* @import '../../assets/public.css'; */
+page {
+	height: 100%;
+}
+@mixin hexagon-generator($hexagon-width, $factor, $border-radius) {
+	display: inline-block;
+	border-radius: 50%;
+	width: ($hexagon-width + $border-radius) * $factor;
+	height: ($hexagon-width + $border-radius) * $factor;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hexagon-shape {
+	@include hexagon-generator(88rpx, 1, 8rpx);
+}

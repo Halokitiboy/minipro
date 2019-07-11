@@ -1,7 +1,24 @@
-.app-index {
+.app {
+	height: 100%;
+}
+.app .app-index {
 	text-align: center;
 }
-.app-index .text {
-	color: #0f0;
+.app .app-index .text {
 	font-size: 32rpx;
+}
+.app .app-index .text .box {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 17rpx;
+	-webkit-border-radius: 17rpx;
+	border-radius: 17rpx;
+	background: red;
+	border-top: 3rpx solid blue;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.app .app-index .light {
+	color: var(--red);
 }

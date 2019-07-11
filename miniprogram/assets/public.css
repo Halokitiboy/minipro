@@ -1,0 +1,9 @@
+@mixin rounded7px($color, $radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+	background: $color;
+}
+@mixin borderTop($color, $width) {
+	border-top: $width solid $color;
+}

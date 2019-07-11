@@ -1,7 +1,22 @@
-.app-index {
-	text-align: center;
-	.text {
-		color: #0f0;
-		font-size: 32rpx;
+@import '../../assets/public.css';
+.app {
+	height: 100%;
+	.app-index {
+		text-align: center;
+		.text {
+			font-size: 32rpx;
+			.box {
+				width: 100px;
+				height: 100px;
+				@include rounded7px(red, 17rpx);
+				@include borderTop(blue, 3rpx);
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+		.light {
+			color: var(--red);
+		}
 	}
 }

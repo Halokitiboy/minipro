@@ -1,7 +1,21 @@
-<view class="" hover-class="none" hover-stop-propagation="false">
+<view class="app" hover-class="none" hover-stop-propagation="false">
     <view class="app-index" hover-class="none" hover-stop-propagation="false">
         <view class="text" hover-class="none" hover-stop-propagation="false">
-            第一次使用腾讯的小程序脚手架
+           <text class="" selectable="false" space="false" decode="false">
+                使用腾讯的小程序脚手架 （使用css mixin以及嵌套功能）
+           </text>
+            <view class="box" hover-class="none" hover-stop-propagation="false">
+            </view>
+            <text class="" selectable="false" space="false" decode="false">
+                使用iview 组件库
+            </text>
+            <i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+            <i-tab-bar current="{{ current }}" color="#f759ab" bindchange="handleChange">
+                <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
+                <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="朋友"></i-tab-bar-item>
+                <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="通知"></i-tab-bar-item>
+                <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的"></i-tab-bar-item>
+            </i-tab-bar>
         </view>
     </view>
 </view>

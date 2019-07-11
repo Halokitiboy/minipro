@@ -8,11 +8,12 @@
 		"newFeature": true,
 		"nodeModules": true,
 		"autoAudits": false,
-		"uglifyFileName": false
+		"uglifyFileName": true,
+		"checkInvalidKey": true
 	},
-	"appid": "touristappid",
+	"appid": "wx3eb518369035a531",
 	"projectname": "text",
-	"libVersion": "2.2.5",
+	"libVersion": "2.7.4",
 	"packOptions": {
 		"ignore": [
 			{
